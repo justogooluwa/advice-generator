@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(218, 23%, 16%);
+  font-family: 'Manrope', sans-serif;
+  cursor: pointer;
+}
+.container{
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  background:  hsl(217, 19%, 24%);
+  height: 330px;
+  width: 500px;
+  border-radius: 10px;
+}
+.id{
+  color: hsl(150, 100%, 66%);
+  font-size: 13px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 3rem;
+  letter-spacing: 3px;
+}
+.quote{
+  color: hsl(193, 38%, 86%);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 800;
+  margin-top: 2rem;
+}
+.divider{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 2rem;
+}
+.dice{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+  background: hsl(150, 100%, 66%);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border-style: none;
+  
+}
+.dice:hover {
+  box-shadow: 0 0 30px hsl(150, 100%, 66%);
+  transition: box-shadow 0.5s ease-in-out;
+}
+@media screen and (max-width:700px){
+  .container{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    background:  hsl(217, 19%, 24%);
+    height: 330px;
+    width: 450px;
+    border-radius: 10px;
+  }
+}
